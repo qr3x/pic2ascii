@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pic2ascii"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav Kishkin <vladkishkin1@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.1"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
